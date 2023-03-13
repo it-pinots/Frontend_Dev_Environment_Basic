@@ -28,7 +28,7 @@ Angular et React sont couramment utilisés pour le développement en Frontend, m
 - Installer quelques dépendances initiales :
 
 <detail open>
-    <summary><h2>npm install - save bulma</h2></summary>
+    <summary><h3>npm install - save bulma</h3></summary>
         <ul>
             <li><a href="https://www.npmjs.com/package/bulma" ><span><strong>NPM</strong></span></a></li>
         </ul>
