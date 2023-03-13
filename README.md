@@ -3,13 +3,13 @@
 ## Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
+- [Installing](#getting_started)
 
 ## About <a name = "about"></a>
 
 Angular et React sont couramment utilisés pour le développement en Frontend, mais pour des **POC** (Proof Of Concept), il n'est pas nécessaire de les utiliser, cela permet d'éviter la complexité. L'idée est de maintenir la simplicité et de réutiliser cette approche pour d'autres projets.
 
-### Installing
+### Installing <a name = "getting_started"></a>
 
 - Créer une archive **git** (git-repo) pour le projet. Ajouter les fichiers `ReadMe` et `.gitignore`.
 - Initialiser **npm** >> `npm init`
