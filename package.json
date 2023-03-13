@@ -11,5 +11,9 @@
     "url": "Frontend_Dev_Environment_Basic"
   },
   "author": "it-pinots",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "save-dev": "^0.0.1-security"
+  }
 }
