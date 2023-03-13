@@ -16,17 +16,22 @@ Angular et React sont couramment utilisés pour le développement en Frontend, m
 - Installer **lite-server** >> `npm install -save-dev lite-server`
 - Ajouter le fichier de configuration de **lite-server** : `bs-config.json` et **mettre à jour** le script `npm-start: lite-server`
 
-```json title=bs-config.json
-{
-    "files" : "./src/**/*.{js, html, css}",
-    "server" : {
-        "baseDir": ["./", "./src" ]
+    ```json title=bs-config.json
+    {
+        "files" : "./src/**/*.{js, html, css}",
+        "server" : {
+            "baseDir": ["./", "./src" ]
+        }
     }
-}
-```
+    ```
 
 - Installer quelques dépendances initiales :
-  - `npm install - save bootstrap`
+
+  - `npm install - save bulma`
+    - NPM
+    - `https://www.npmjs.com/package/bulma`
+    - CDN
+    - `https://www.jsdelivr.com/package/npm/bulma`
 
   - `npm install - save jquery`
 
