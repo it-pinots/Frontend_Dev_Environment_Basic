@@ -1,0 +1,15 @@
+{
+  "name": "frontend_dev_environment_basic",
+  "version": "1.0.0",
+  "description": "- [About](#about)\r - [Getting Started](#getting_started)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Frontend_Dev_Environment_Basic"
+  },
+  "author": "it-pinots",
+  "license": "ISC"
+}
