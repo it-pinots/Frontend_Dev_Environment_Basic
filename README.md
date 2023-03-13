@@ -27,11 +27,17 @@ Angular et React sont couramment utilisés pour le développement en Frontend, m
 
 - Installer quelques dépendances initiales :
 
-  - `npm install - save bulma`
-    - NPM
-    - `https://www.npmjs.com/package/bulma`
-    - CDN
-    - `https://www.jsdelivr.com/package/npm/bulma`
+<detail open>
+    <summary><h2>npm install - save bulma</h2></summary>
+        <ul>
+            <li><a href="https://www.npmjs.com/package/bulma" ><span><strong>NPM</strong></span></a></li>
+        </ul>
+        <ul>
+            <li><a href="https://www.jsdelivr.com/package/npm/bulma" ><span><strong>CDN</strong></span></a></li>
+        </ul>
+        <p>Bulma is a modern CSS framework based on Flexbox.</p>
+</detail>
+
 
   - `npm install - save jquery`
 
