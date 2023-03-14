@@ -1,0 +1,98 @@
+/*
+minireset.css - A tiny modern CSS reset
+
+----
+
+<!---Import in your HTML <head> --->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+
+or
+
+/*Import in your CSS
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+or
+
+npm install minireset.css
+
+---
+
+resets the font sizes
+so that using semantic markup doesn't affect the styling
+
+resets the block margins
+so that the spacing is only applied when you need it
+
+resets tables
+so that tabular data only takes the space it needs
+
+preserves the inline paddings
+so that buttons and inputs keep their default layout
+
+sets the border-box box sizing
+so that borders and paddings don't affect the set dimensions
+
+sets responsive media elements
+so that images and videos scale with the browser width
+
+**/
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+
+*,*::before,*::after{
+  box-sizing:inherit;
+  padding:0;
+  margin: 0;
+}
+
+html{
+  box-sizing:border-box;
+
+}
+
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{
+  padding:0;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:auto;
+
+}
+
+ul{
+  list-style:none;
+
+}
+
+button,input,select{
+  margin:0;
+
+}
+
+img,video{
+  height:auto;
+  max-width:100%;
+
+}
+
+iframe{
+  border:0;
+
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+
+}
+
+td,th{
+  padding:0;
+
+}
+
+article, section, summary, aside {
+  margin: 0 auto;
+
+}
