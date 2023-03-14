@@ -31,7 +31,6 @@ Angular et React sont couramment utilisés pour le développement en Frontend, m
 
 - Ajouter le fichier de configuration de **lite-server** >> `bs-config.json`
 
-
 <br>
 
 ```json title=bs-config.json
@@ -47,7 +46,7 @@ Angular et React sont couramment utilisés pour le développement en Frontend, m
 
 <br>
 
-- **Mettre à jour** le script >> ` npm update`
+- **Mettre à jour** le script >> `npm update`
 
 <br>
 
