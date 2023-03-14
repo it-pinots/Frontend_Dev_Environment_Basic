@@ -4,6 +4,9 @@
   "description": "- [About](#about)\r - [Getting Started](#getting_started)",
   "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
+    "lite" : "lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,4 +19,9 @@
     "lite-server": "^2.6.1",
     "save-dev": "^0.0.1-security"
   }
+
+
+
+
+
 }
